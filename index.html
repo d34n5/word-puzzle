@@ -8,10 +8,18 @@
       <title>Template</title>
     </head>
     <body>
-      <h1></h1>
-      <div>
+      <div class="container">
+        <form>
+          <h3>Please enter a sentence, and this program will change all the vowels into dashes so that you can attempt to stump your friends.</h3><hr>
+          <div class="form-group">
+            <label for="counter">Write a brilliant sentence:</label>
+            <input id="counter" class="form-control" type="text" required="required">
+          </div>
+        <button type="submit" class="btn btn-success">Puzzle it!</button>
+        </form>
+        <div class="results">
+          <p>Here is your puzzle: <span id="output"></span></p>
+        </div>
       </div>
-      <div></div>
-      <div></div>
     </body>
   </html>
